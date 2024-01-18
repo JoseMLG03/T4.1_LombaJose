@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio Paw</title>
+    <link rel="shortcut icon" href="Assets/favicon.png"> 
+    <link rel = "stylesheet" href="CSS.css">
+
+    <script type="module">
+        import { setupMenuToggle } from './MenuHamburguesa.js';
+        document.addEventListener('DOMContentLoaded', function () {
+            setupMenuToggle();
+        });
+    </script>
+</head>
+<body>
+    <nav class="BarraNavegacion">
+        <div class="logo">Refugio Paw </div>
+        <div class="LogoImg"><img src="Assets/Logo.png" alt="Descripción de la imagen"></div>
+        <div class="menu-icon">&#9776;</div>
+        <ul class="menu">
+            <li><a href="LandingPage.html">Inicio</a></li>
+            <li><a href="AboutUs.html">Sobre nosotros</a></li>
+            <li class="AnimalsMenu"><a href="#">Animales en adopcion</a></li>
+        </ul>
+        <ul class="menu2">
+            <li><a href="Cats.html">Gatos</a></li>
+            <li><a href="Dogs.html">Perros</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>Adopta un Amigo Peludo</h2>
+        <p>Descubre a nuestros adorables animales disponibles para adopción. ¡Te están esperando!</p>
+        <img class="CatImage1" src="Assets/AssetsLandingPage/Cat1.jpg" alt="#">
+    </section>
+    
+    <section>
+        <h2>Donar</h2>
+        <p>Apoya nuestra misión donando para ayudar a cubrir los gastos médicos, 
+            alimentación y cuidado de los animales en nuestro refugio.</p>
+        <br><br>
+        <a href="#donate" class="btn">Hacer una Donación</a>
+        
+    </section>
+    <section>
+        <h2>Siguenos en nuestras redes sociales</h2>
+        <p>Únete a nuestra comunidad en línea para estar al tanto de las últimas noticias,
+             historias de nuestros animales y eventos.</p>
+        <p>Descubre cómo cada día trabajamos incansablemente para brindar refugio y cuidado a animales necesitados. 
+            Desde adopciones exitosas hasta campañas de recaudación de fondos.</p>
+        <p>No te pierdas nuestras publicaciones diarias, fotos encantadoras y la oportunidad de ser parte de nuestro increíble 
+            viaje para crear un mundo mejor para los animales. ¡Síguenos ahora y únete a la familia del Refugio Paw!</p>
+        <div class="SocialMedia">
+            <ul>
+                <a href="https://www.whatsapp.com/" target="_blank"><img class="WhatsAppAppImg" src="Assets/AssetsLandingPage/WhatsAppImg.png" alt="WHTTSP"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="FacebookAppImg" src="Assets/AssetsLandingPage/FacebookAppImg.png" alt="FB"></a>
+
+                <a href="https://www.twitter.com/" target="_blank"><img class="TwitterAppImg" src="Assets/AssetsLandingPage/TwitterAppImg.png" alt="TWTTR"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="InstagramAppImg" src="Assets/AssetsLandingPage/InstagramAppImg.png" alt="IG"></a>
+            </ul>
+        </div>
+    </section>
+    <footer class="piepagina">
+        <br>
+        <p class="Copyright">
+
+
+            © Copyright 2024
+        </p>
+        <br>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,192 @@
+h1, h2, p, ul, li {
+  list-style: none;
+  
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('Assets/Fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover
+}
+
+
+/*Cosas de la barra de navegacion*/
+.BarraNavegacion{
+  background-color: rgb(107, 107, 96);
+  padding: 10px; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  
+}
+.logo {
+  color: #fff; 
+  font-size: 3rem; 
+}
+.BarraNavegacion ul {
+  display: flex; 
+  flex-direction: row; 
+}
+.BarraNavegacion li {
+  margin-right: 20px;
+}
+.BarraNavegacion a {
+  text-decoration: none; 
+  color: #fff; 
+  padding: 10px 20px; 
+  display: inline-block; 
+  transition: background-color 0.3s;
+}
+.menu-icon {
+  display: none;
+}
+nav a:hover {
+  background-color: #555;
+  border-radius: 50PX;
+}
+.BarraNavegacion ul {
+  display: flex;
+}
+.BarraNavegacion ul.menu2 {
+  display: none;
+}
+.BarraNavegacion ul.menu2.show {
+  display: flex; 
+  background-color: rgb(124, 124, 111);
+  flex-direction: column;
+  position: absolute;
+  margin-top: 182px;
+  right: 0;
+}
+/*=====================================================================*/
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: beige;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 230);
+}
+
+h2{
+  font-size: 2rem;
+  margin-bottom: 30px;
+  background-color: rgb(233, 233, 75);
+  border-radius: 50px;
+  border: 2px solid rgb(252, 252, 85);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.LogoImg img{
+  width: 80px; /* Establece el ancho deseado */
+  position: absolute;
+  left: 280px;
+  top: -5px;
+  color: #fff;
+}
+.CatImage1 {
+  max-width: 500px;
+  border-radius: 50px;
+}
+
+.SocialMedia ul {
+  text-align: center;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.SocialMedia img {
+  text-align: center;
+  margin-top: 20px;
+  width: 80px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+  margin: 0 10px; /* Añade un espacio entre las imágenes */
+  border-radius:15px ;
+}
+
+.AboutUs h2{
+  margin: 0;
+  font-size: 100px;
+}
+
+.AboutUs p{
+  font-size: 25px;
+  
+}
+
+footer{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(124, 124, 111);
+  color: #fff;
+}
+
+/*Version Movil*/
+@media screen and (max-width: 835px) {
+  /*Barra de navegacion en Movil*/
+  .BarraNavegacion ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 46px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(124, 124, 111);
+
+  }
+  .LogoImg img{
+    width: 50px; /* Establece el ancho deseado */
+    position: absolute;
+    left: 180px;
+    top: 5px;
+    color: #fff;
+  }
+  .BarraNavegacion ul.show {
+    display: flex;
+  }
+  .BarraNavegacion li {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .BarraNavegacion .logo {
+    font-size: 2rem;
+  }
+  .BarraNavegacion a {
+    padding: 10px;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  .BarraNavegacion ul.menu2.show {
+    display: flex; /* Mostrar cuando la clase 'show' está presente */
+    flex-direction: column;
+    position: absolute;
+    margin-top: 160px;
+    right: 0;
+    background-color: rgb(167, 167, 149);
+  }
+  /*====================================================================*/
+
+  .CatImage1 {
+    max-width: 200px;
+    border-radius: 50px;
+  }
+}
