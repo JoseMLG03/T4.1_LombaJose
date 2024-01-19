@@ -66,10 +66,11 @@ section {
   padding: 50px 20px;
   text-align: center;
   margin: 20px;
-  background-color: beige;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50px;
   border: 2px solid rgb(255, 255, 230);
 }
+
 
 h2{
   font-size: 2rem;
@@ -110,12 +111,26 @@ h2{
 .SocialMedia img {
   text-align: center;
   margin-top: 20px;
-  width: 80px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+  width: 60px; /* Ajusta el tamaño de las imágenes según tus preferencias */
   margin: 0 10px; /* Añade un espacio entre las imágenes */
-  border-radius:15px ;
+  border-radius:30px ;
 }
 
+.AnimalesAboutUs ul{
+  text-align: center;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.AnimalesAboutUs img{
+  text-align: center;
+  margin-top: 20px;
+  width: 300px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+  margin: 0 150px; /* Añade un espacio entre las imágenes */
+  border-radius:150px ;
+}
 
 .AboutUs h2{
   margin: 0;
@@ -124,7 +139,10 @@ h2{
 
 .AboutUs p{
   font-size: 25px;
-  
+}
+.CatsAdoption h2{
+  margin: 0;
+  font-size: 100px;
 }
 
 footer{
