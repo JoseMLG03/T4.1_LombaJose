@@ -9,7 +9,8 @@ body{
   background-image: url('Assets/Fondo.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover
+  background-size:cover;
+  background-position: -100;
   
 }
 
@@ -90,7 +91,7 @@ h2{
   border-radius: 50px;
 }
 .LogoImg img{
-  width: 80px; /* Establece el ancho deseado */
+  width: 80px; 
   position: absolute;
   left: 280px;
   top: -5px;
@@ -112,8 +113,8 @@ h2{
 .SocialMedia img {
   text-align: center;
   margin-top: 20px;
-  width: 60px; /* Ajusta el tamaño de las imágenes según tus preferencias */
-  margin: 0 10px; /* Añade un espacio entre las imágenes */
+  width: 60px; 
+  margin: 0 10px; 
   border-radius:30px ;
 }
 
@@ -128,8 +129,8 @@ h2{
 .AnimalesAboutUs img{
   text-align: center;
   margin-top: 20px;
-  width: 300px; /* Ajusta el tamaño de las imágenes según tus preferencias */
-  margin: 0 150px; /* Añade un espacio entre las imágenes */
+  width: 300px; 
+  margin: 0 150px; 
   border-radius:150px ;
 }
 
@@ -147,17 +148,17 @@ h2{
   font-size: 100px;
 }
 .cats-container {
-  display: flex; /* Muestra las imágenes y nombres en línea */
-  overflow-x: auto; /* Permite el desplazamiento horizontal */
+  display: flex; 
+  overflow-x: auto; 
 }
 
 .cat-container {
   text-align: center;
-  margin-right: 20px; /* Espaciado entre cada contenedor de gato */
+  margin-right: 20px; 
 }
 
 .cat-image {
-  width: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  width: 300px; 
   border-radius: 50px;
 }
 
@@ -170,17 +171,17 @@ h2{
   font-size: 100px;
 }
 .dogs-container {
-  display: flex; /* Muestra las imágenes y nombres en línea */
-  overflow-x: auto; /* Permite el desplazamiento horizontal */
+  display: flex; 
+  overflow-x: auto; 
 }
 
 .dog-container {
   text-align: center;
-  margin-right: 20px; /* Espaciado entre cada contenedor de gato */
+  margin-right: 20px; 
 }
 
 .dog-image {
-  width: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  width: 300px; 
   border-radius: 50px;
 }
 
@@ -189,7 +190,10 @@ h2{
   font-size: 16px;
 }
 
-
+.Formulario label{
+  margin-left: 20px;
+  font-size: 20px;
+}
 .Margen{
   opacity: 0;
 }
@@ -220,7 +224,7 @@ footer{
 
   }
   .LogoImg img{
-    width: 50px; /* Establece el ancho deseado */
+    width: 50px; 
     position: absolute;
     left: 180px;
     top: 5px;
@@ -248,7 +252,7 @@ footer{
     color: #fff;
   }
   .BarraNavegacion ul.menu2.show {
-    display: flex; /* Mostrar cuando la clase 'show' está presente */
+    display: flex; 
     flex-direction: column;
     position: absolute;
     margin-top: 160px;
@@ -258,7 +262,57 @@ footer{
   /*====================================================================*/
 
   .CatImage1 {
-    max-width: 200px;
+    max-width: 250px;
     border-radius: 50px;
+  }
+
+
+  .CatsAdoption h2{
+    margin: 0;  
+    font-size: 30px;
+  }
+  .cats-container {
+    display: flex; 
+    overflow-x: auto; 
+  }
+  
+  .cat-container {
+    text-align: center;
+    margin-right: 20px; 
+  }
+  
+  .cat-image {
+    width: 150px; 
+    border-radius: 50px;
+  }
+  
+  .cat-name {
+    margin: 0;
+    font-size: 16px;
+  }
+
+
+  .DogsAdoption h2{
+    margin: 0;  
+    font-size: 30px;
+  }
+  .dogs-container {
+    display: flex; 
+    overflow-x: auto; 
+  }
+  
+  .dog-container {
+    text-align: center;
+    margin-right: 20px; 
+  }
+  
+  .dog-image {
+    max-width: 150px;
+    border-radius: 50px;
+  }
+  
+  .dog-name {
+    margin: 0;
+    font-size: 16px;
   }
 }
