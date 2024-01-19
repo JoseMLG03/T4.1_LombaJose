@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio Paw</title>
+    <link rel="shortcut icon" href="Assets/favicon.png"> 
+    <link rel = "stylesheet" href="CSS.css">
+
+    <script type="module">
+        import { setupMenuToggle,DogsArrayObject } from './Functions.js';
+        document.addEventListener('DOMContentLoaded', function () {
+            setupMenuToggle();
+            DogsArrayObject();
+        });
+    </script>
+</head>
+<body>
+    <nav class="BarraNavegacion">
+        <div class="logo">Refugio Paw </div>
+        <div class="LogoImg"><img src="Assets/Logo.png" alt="Descripción de la imagen"></div>
+        <div class="menu-icon">&#9776;</div>
+        <ul class="menu">
+            <li><a href="LandingPage.html">Inicio</a></li>
+            <li><a href="AboutUs.html">Sobre nosotros</a></li>
+            <li class="AnimalsMenu"><a href="#">Animales en adopcion</a></li>
+        </ul>
+        <ul class="menu2">
+            <li><a href="Cats.html">Gatos</a></li>
+            <li><a href="Dogs.html">Perros</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>¡Ayúdanos a Hacer un Cambio!</h2>
+        <p>Tu generosidad puede marcar la diferencia en nuestras iniciativas. Cada donación cuenta y nos acerca un paso más a nuestros objetivos. Gracias por tu apoyo.</p>
+    </section>
+
+    <section>
+        <h2>Formulario de Donación</h2>
+        <form action="procesar_donacion.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cantidad">Cantidad a Donar:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" required>
+
+            <label for="metodo_pago">Método de Pago:</label>
+            <select id="metodo_pago" name="metodo_pago" required>
+                <option value="tarjeta">Tarjeta de Crédito</option>
+                <option value="paypal">PayPal</option>
+                <!-- Agrega más opciones según sea necesario -->
+
+            </select>
+
+            <button type="submit">Donar Ahora</button>
+        </form>
+    </section>
+    <footer class="piepagina">
+        <p class="Copyright">
+            © Copyright 2024
+        </p>
+    </footer>
+    <section class="Margen"></section>
+</body>
+</html>
