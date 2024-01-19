@@ -13,15 +13,14 @@ body{
 }
 
 
-/*Cosas de la barra de navegacion*/
+/*Barra de navegacion*/
 .BarraNavegacion{
   background-color: rgb(107, 107, 96);
   padding: 10px; 
   display: flex; 
   justify-content: space-between;
   align-items: center; 
-  
-}
+ }
 .logo {
   color: #fff; 
   font-size: 3rem; 
@@ -115,6 +114,8 @@ h2{
   margin: 0 10px; /* Añade un espacio entre las imágenes */
   border-radius:15px ;
 }
+
+
 
 .AboutUs h2{
   margin: 0;
