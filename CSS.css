@@ -145,16 +145,26 @@ h2{
   font-size: 100px;
 }
 .cats-container {
-  display: flex; /* Muestra las imágenes en línea */
+  display: flex; /* Muestra las imágenes y nombres en línea */
   overflow-x: auto; /* Permite el desplazamiento horizontal */
-  white-space: nowrap; /* Evita que las imágenes se dividan en múltiples líneas */
-  padding: 20px; /* Espaciado interior para mayor claridad */
 }
 
-.cat {
-  /* Estilos para cada imagen de gato */
+.cat-container {
+  text-align: center;
+  margin-right: 20px; /* Espaciado entre cada contenedor de gato */
+}
+
+.cat-image {
   max-width: 200px; /* Ajusta el tamaño de las imágenes según sea necesario */
-  margin-right: 10px; /* Espacio entre cada imagen de gato */
+  border-radius: 50px;
+}
+
+.cat-name {
+  margin: 0;
+  font-size: 16px;
+}
+.Margen{
+  opacity: 0;
 }
 
 footer{
@@ -163,6 +173,10 @@ footer{
   padding: 0;
   background-color: rgb(124, 124, 111);
   color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
 }
 
 /*Version Movil*/
