@@ -15,16 +15,16 @@ export function setupMenuToggle() {
 }
 export function CatsArrayObject() {
     const gatos = [
-      { nombre: 'Gato 1', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 2', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 3', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 4', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 5', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 6', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 7', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 8', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 9', imagen: 'Assets/Logo.png' },
-      { nombre: 'Gato 10', imagen: 'Assets/Logo.png' },
+      { nombre: 'Kvarnvik', imagen: 'Assets/AssetsCats/Cat1.png' },
+      { nombre: 'Knipsa', imagen: 'Assets/AssetsCats/Cat2.png' },
+      { nombre: 'Trofast', imagen: 'Assets/AssetsCats/Cat3.png' },
+      { nombre: 'Ferguson', imagen: 'Assets/AssetsCats/Cat4.png' },
+      { nombre: 'Stinker', imagen: 'Assets/AssetsCats/Cat5.png' },
+      { nombre: 'Andamio', imagen: 'Assets/AssetsCats/Cat6.png' },
+      { nombre: 'Oslo', imagen: 'Assets/AssetsCats/Cat7.png' },
+      { nombre: 'Ashley', imagen: 'Assets/AssetsCats/Cat8.png' },
+      { nombre: 'Wisp', imagen: 'Assets/AssetsCats/Cat9.png' },
+      { nombre: 'Luna', imagen: 'Assets/AssetsCats/Cat10.png' },
     ];
     
     const gatosContainer = document.querySelector('.cats-container');
@@ -49,16 +49,16 @@ export function CatsArrayObject() {
 };
 export function DogsArrayObject() {
     const perros = [
-      { nombre: 'Perro 1', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 2', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 3', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 4', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 5', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 6', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 7', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 8', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 9', imagen:  'Assets/Logo.png' },
-      { nombre: 'Perro 10', imagen: 'Assets/Logo.png' },
+      { nombre: 'Cincel', imagen:  'Assets/AssetsDogs/Dog1.png' },
+      { nombre: 'Óðinn', imagen:  'Assets/AssetsDogs/Dog2.png' },
+      { nombre: 'Martillo', imagen:  'Assets/AssetsDogs/Dog3.png' },
+      { nombre: 'Valaskjálf', imagen:  'Assets/AssetsDogs/Dog4.png' },
+      { nombre: 'Tdölfürr', imagen:  'Assets/AssetsDogs/Dog5.png' },
+      { nombre: 'Ragnavaldar', imagen:  'Assets/AssetsDogs/Dog6.png' },
+      { nombre: 'Mr.Bubz', imagen:  'Assets/AssetsDogs/Dog7.png' },
+      { nombre: 'Sanngriðr', imagen:  'Assets/AssetsDogs/Dog8.png' },
+      { nombre: 'Hjaðningavíg', imagen:  'Assets/AssetsDogs/Dog9.png' },
+      { nombre: 'Brynhildr', imagen: 'Assets/AssetsDogs/Dog10.png' },
     ];
     
     const perrosContainer = document.querySelector('.dogs-container');

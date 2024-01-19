@@ -10,8 +10,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  background-position: -100;
-  
+  background-color: #333;
 }
 
 
@@ -89,6 +88,7 @@ h2{
   color: #fff;
   text-decoration: none;
   border-radius: 50px;
+  
 }
 .LogoImg img{
   width: 80px; 
@@ -158,13 +158,16 @@ h2{
 }
 
 .cat-image {
-  width: 300px; 
+  max-width: 300px; 
+  max-height: 300px;
+  min-height: 300px;
+  min-width: 300px;
   border-radius: 50px;
 }
 
 .cat-name {
   margin: 0;
-  font-size: 16px;
+  font-size: 30px;
 }
 .DogsAdoption h2{
   margin: 0;
@@ -181,21 +184,41 @@ h2{
 }
 
 .dog-image {
-  width: 300px; 
+  max-width: 300px; 
+  max-height: 300px;
+  min-height: 300px;
+  min-width: 300px;
   border-radius: 50px;
 }
 
 .dog-name {
   margin: 0;
-  font-size: 16px;
+  font-size: 30px;
+}
+
+.DonationsSec h2 {
+  margin: 0;
+  font-size: 50px;
+}
+.DonationsSec p {
+  font-size: 30px;
 }
 
 .Formulario label{
   margin-left: 20px;
   font-size: 20px;
 }
+.Formulario h2{
+  margin: 0;
+  font-size: 40px;
+}
+
 .Margen{
   opacity: 0;
+}
+.FinDePico {
+  text-align: center;
+  font-size: 100;
 }
 
 footer{
@@ -218,7 +241,7 @@ footer{
     flex-direction: column;
     position: absolute;
     top: 46px;
-    left: 0;
+    left: -30px;
     width: 100%;
     background-color: rgb(124, 124, 111);
 
@@ -226,7 +249,7 @@ footer{
   .LogoImg img{
     width: 50px; 
     position: absolute;
-    left: 180px;
+    left: 200px;
     top: 5px;
     color: #fff;
   }
@@ -265,54 +288,87 @@ footer{
     max-width: 250px;
     border-radius: 50px;
   }
-
-
-  .CatsAdoption h2{
-    margin: 0;  
-    font-size: 30px;
-  }
-  .cats-container {
-    display: flex; 
-    overflow-x: auto; 
+  
+  .SocialMedia img {
+    text-align: center;
+    margin-top: 20px;
+    width: 30px; 
+    margin: 0 10px; 
+    border-radius:30px ;
   }
   
-  .cat-container {
+  .AnimalesAboutUs img{
     text-align: center;
+    margin-top: 20px;
+    width: 150px; 
+    margin: 0 60px; 
+    border-radius:150px ;
+  }
+  
+  .AboutUs h2{
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .AboutUs p{
+    font-size: 20px;
+  }
+  
+  .CatsAdoption h2{
+    margin: 0;
+    font-size: 25px;
+  }
+
+
+  .cat-container {
+   text-align: center;
     margin-right: 20px; 
   }
-  
+
   .cat-image {
-    width: 150px; 
+   max-width: 150px; 
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 150px;
     border-radius: 50px;
   }
-  
+
   .cat-name {
     margin: 0;
-    font-size: 16px;
+   font-size: 20px;
   }
-
-
   .DogsAdoption h2{
-    margin: 0;  
-    font-size: 30px;
+    margin: 0;
+    font-size: 50px;
   }
   .dogs-container {
-    display: flex; 
+   display: flex; 
     overflow-x: auto; 
   }
-  
+
   .dog-container {
-    text-align: center;
+   text-align: center;
     margin-right: 20px; 
   }
-  
+
   .dog-image {
-    max-width: 150px;
+    max-width: 150px; 
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 150px;
     border-radius: 50px;
   }
-  
+
   .dog-name {
     margin: 0;
-    font-size: 16px;
+    font-size: 20px;
+  }
+
+  .DonationsSec h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+  .DonationsSec p {
+    font-size: 15px;
   }
 }

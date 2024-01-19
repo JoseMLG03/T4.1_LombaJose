@@ -21,7 +21,7 @@
         <div class="LogoImg"><img src="Assets/Logo.png" alt="Descripción de la imagen"></div>
         <div class="menu-icon">&#9776;</div>
         <ul class="menu">
-            <li><a href="LandingPage.html">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="AboutUs.html">Sobre nosotros</a></li>
             <li class="AnimalsMenu"><a href="#">Animales en adopcion</a></li>
         </ul>
@@ -31,30 +31,34 @@
         </ul>
     </nav>
     
-    <section>
-        <h2>¡Ayúdanos a Hacer un Cambio!</h2>
-        <p>Tu generosidad puede marcar la diferencia en nuestras iniciativas. Cada donación cuenta y nos acerca un paso más a nuestros objetivos. Gracias por tu apoyo.</p>
+    <section class="DonationsSec">
+        <h2>¡Ayúdanos a hacer un cambio!</h2>
+        <p>Tu generosidad puede marcar la diferencia en nuestras iniciativas. 
+            Cada donacion cuenta y nos acerca un paso mas a nuestros objetivos. <br><br>
+            <b>Gracias por tu apoyo.</b></p>
     </section>
 
     <section class="Formulario">
         <h2>Formulario de Donación</h2>
-        <form action="FinDePico.html" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+        <br><br><br>
+        <form method="post">
+            <label class="nombreLabel" for="nombre">Nombre:</label>
+            <input class="nombreLabelTrue" type="text" name="nombre" required>
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+            <label class="emailLabel" for="email">Email:</label>
+            <input class="emailLabelTrue"type="email" name="email" required>
 
-            <label for="cantidad">Cantidad a Donar:</label>
-            <input type="number" id="cantidad" name="cantidad" min="1" required>
+            <label class="cantidadLabel" for="cantidad">Cantidad:</label>
+            <input class="cantidadLabelTrue" type="number" name="cantidad" min="1" required>
 
-            <label for="metodo_pago">Método de Pago:</label>
-            <select id="metodo_pago" name="metodo_pago" required>
+            <label class="metodoPagoLabel" for="metodo_pago">Método de pago:</label>
+            <select class="metodoPagoLabelTrue" name="metodo_pago" required>
                 <option value="tarjeta">Tarjeta de Crédito</option>
                 <option value="paypal">PayPal</option>
+                <option value="PaySafeCard">PaySafeCard</option>
             </select>
             <br><br><br><br>
-            <button class="btn" type="submit">Donar Ahora</button>
+            <a button class="btn btnDonation" href="FinDePico.html" type="submit">Donar Ahora</a>
         </form>
         
     </section>

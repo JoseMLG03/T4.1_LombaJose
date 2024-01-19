@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refugio Paw</title>
+    <link rel="shortcut icon" href="Assets/favicon.png"> 
+    <link rel = "stylesheet" href="CSS.css">
+
+    <script type="module">
+        import { setupMenuToggle,DogsArrayObject } from './Functions.js';
+        document.addEventListener('DOMContentLoaded', function () {
+            setupMenuToggle();
+        });
+    </script>
+</head>
+<body>
+    <nav class="BarraNavegacion">
+        <div class="logo">Refugio Paw </div>
+        <div class="LogoImg"><img src="Assets/Logo.png" alt="Descripción de la imagen"></div>
+        <div class="menu-icon">&#9776;</div>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="AboutUs.html">Sobre nosotros</a></li>
+            <li class="AnimalsMenu"><a href="#">Animales en adopcion</a></li>
+        </ul>
+        <ul class="menu2">
+            <li><a href="Cats.html">Gatos</a></li>
+            <li><a href="Dogs.html">Perros</a></li>
+        </ul>
+    </nav>
+    
+    <section class="FinDePico">
+        <p><b>¡Gracias por tu apoyo!</b></p>
+    </section>
+
+    <footer class="piepagina">
+        <p class="Copyright">
+            © Copyright 2024
+        </p>
+    </footer>
+    <section class="Margen"></section>
+</body>
+</html>
