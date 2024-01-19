@@ -144,6 +144,18 @@ h2{
   margin: 0;
   font-size: 100px;
 }
+.cats-container {
+  display: flex; /* Muestra las imágenes en línea */
+  overflow-x: auto; /* Permite el desplazamiento horizontal */
+  white-space: nowrap; /* Evita que las imágenes se dividan en múltiples líneas */
+  padding: 20px; /* Espaciado interior para mayor claridad */
+}
+
+.cat {
+  /* Estilos para cada imagen de gato */
+  max-width: 200px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  margin-right: 10px; /* Espacio entre cada imagen de gato */
+}
 
 footer{
   text-align: center;

@@ -8,9 +8,10 @@
     <link rel = "stylesheet" href="CSS.css">
 
     <script type="module">
-        import { setupMenuToggle } from './MenuHamburguesa.js';
+        import { setupMenuToggle,CatsArrayObject } from './Functions.js';
         document.addEventListener('DOMContentLoaded', function () {
             setupMenuToggle();
+            CatsArrayObject();
         });
     </script>
 </head>
@@ -35,6 +36,11 @@
         <p>
             Bienvenido a el apartado felino de la pagina, donde podras ver los distintos gatos que estan listos para ser acogidos en un nuevo hogar.
         </p>
+        <div class="cats-container">
+        <p class="catsimg-container"></p>
+        <br><br><br><br><br><br><br>
+        <p class="catsnames-container"></p>
+        </div>
 
     </section>
 
