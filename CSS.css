@@ -10,6 +10,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover
+  
 }
 
 
@@ -140,6 +141,7 @@ h2{
 .AboutUs p{
   font-size: 25px;
 }
+
 .CatsAdoption h2{
   margin: 0;
   font-size: 100px;
@@ -155,7 +157,7 @@ h2{
 }
 
 .cat-image {
-  max-width: 200px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  width: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
   border-radius: 50px;
 }
 
@@ -163,6 +165,31 @@ h2{
   margin: 0;
   font-size: 16px;
 }
+.DogsAdoption h2{
+  margin: 0;
+  font-size: 100px;
+}
+.dogs-container {
+  display: flex; /* Muestra las imágenes y nombres en línea */
+  overflow-x: auto; /* Permite el desplazamiento horizontal */
+}
+
+.dog-container {
+  text-align: center;
+  margin-right: 20px; /* Espaciado entre cada contenedor de gato */
+}
+
+.dog-image {
+  width: 300px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  border-radius: 50px;
+}
+
+.dog-name {
+  margin: 0;
+  font-size: 16px;
+}
+
+
 .Margen{
   opacity: 0;
 }

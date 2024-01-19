@@ -22,6 +22,9 @@ export function CatsArrayObject() {
       { nombre: 'Gato 5', imagen: 'Assets/Logo.png' },
       { nombre: 'Gato 6', imagen: 'Assets/Logo.png' },
       { nombre: 'Gato 7', imagen: 'Assets/Logo.png' },
+      { nombre: 'Gato 8', imagen: 'Assets/Logo.png' },
+      { nombre: 'Gato 9', imagen: 'Assets/Logo.png' },
+      { nombre: 'Gato 10', imagen: 'Assets/Logo.png' },
     ];
     
     const gatosContainer = document.querySelector('.cats-container');
@@ -46,13 +49,16 @@ export function CatsArrayObject() {
 };
 export function DogsArrayObject() {
     const perros = [
-      { nombre: 'Perro 1', imagen: 'Assets/Logo.png' },
-      { nombre: 'Perro 2', imagen: 'Assets/Logo.png' },
-      { nombre: 'Perro 3', imagen: 'Assets/Logo.png' },
-      { nombre: 'Perro 4', imagen: 'Assets/Logo.png' },
-      { nombre: 'Perro 5', imagen: 'Assets/Logo.png' },
-      { nombre: 'Perro 6', imagen: 'Assets/Logo.png' },
-      { nombre: 'Perro 7', imagen: 'Assets/Logo.png' },
+      { nombre: 'Perro 1', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 2', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 3', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 4', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 5', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 6', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 7', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 8', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 9', imagen:  'Assets/Logo.png' },
+      { nombre: 'Perro 10', imagen: 'Assets/Logo.png' },
     ];
     
     const perrosContainer = document.querySelector('.dogs-container');
