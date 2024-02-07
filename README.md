@@ -34,7 +34,7 @@ La ley de proximidad en esta pagina web son los gatos y perros para adoptar, pue
 La regla de fin de pico en esta pagina web ocurre al hacer una donacion, Al meter todos tus datos y donar, la pagina cambia a otra dandote las gracias por tu apoyo.
 
 ---
-https://josemlg03.github.io/T4.1_LombaJose/
+
 #### [Enlace al proyecto de figma de esta pagina](https://www.figma.com/file/RsrHpu2po71lSSQ4QOJFoK/T4.1_LombaJose?type=design&node-id=0%3A1&mode=design&t=w0ZGiP65DQzi8NBy-1)
 #### [Enlace a la pagina](https://josemlg03.github.io/T4.1_LombaJose/)
 
